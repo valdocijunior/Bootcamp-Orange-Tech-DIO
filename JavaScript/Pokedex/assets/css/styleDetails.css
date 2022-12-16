@@ -1,0 +1,114 @@
+header {
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+}
+
+header h3 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+header #number {
+    padding: 0.25rem 0.5rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    width: fit-content;
+    text-align: center;
+    filter: brightness(1.1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem;
+    background: url(../imgs/forest.webp);
+    background-size: 100%;
+    text-shadow: 1px 1px 2px black;
+}
+
+img {
+    width: 25vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+details {
+  width: 30%;
+  color: #fff;
+  background: rgb(98, 145, 139);
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 1rem;
+  color: #fff;
+  display: block;
+  background: rgb(79, 127, 66);
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary .type-grass {
+    background-color: rgb(119, 200, 80);
+    padding: 0.25rem 0.5rem;
+    margin-left: 25%;
+    border-radius: 1rem;
+    text-align: center;
+    width: fit-content;
+    filter: brightness(1.1);
+}
+
+summary .type-poison {
+    background-color: rgb(176, 70, 176);
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: fit-content;
+    filter: brightness(1.1);
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+ul {
+    text-shadow: none;
+    background-color: rgb(98, 145, 139);
+    color: #fff;
+}
+
+ul li {
+    background-color: rgb(98, 145, 139);
+    color: black;
+    list-style: none;
+    text-align: left;
+}
+
+ul li .value {
+    background-color: rgb(98, 145, 139);
+    color: #fff;
+    margin-left: 25%;
+}

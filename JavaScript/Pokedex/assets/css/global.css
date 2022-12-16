@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8FC;
+    background-image: url(../imgs/Pokemons-Background.png);
+}
+
+#pokedex-logo {
+    width: 360px;
+    padding: 0 7px;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: #FFF;
+    border-style: solid;
+    border-color: rgba(180, 0, 2, 0.5)
+}
+
+.content a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}

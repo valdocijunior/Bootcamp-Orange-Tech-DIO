@@ -1,0 +1,32 @@
+Requisição HTPP
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${IP/Endereço}/${path = caminho de identificação do recurso}
+
+IP: https://pokeapi.co 
+
+path = /api/v2/pokemon
+
+Request Method: GET | POST | PUT | DELETE       TODA REQUISIÇÃO, O MÉTODO DIZ O QUE QUEREMOS FAZER.
+
+Request Headers:
+    Configuração da API
+    accept-language:
+    pt-BR,                                                  APENAS EXEMPLO DE CONFIGURAÇÃO!!!
+    pt;q=0.9,
+    en-US;q=0.8,
+    en;q=0.7
+
+Response Headers:
+    Configuração
+
+
+Request Headers
+    content-type: application/json;
+
+Body 
+{
+    "name": "Teste"
+}
+
+Status Code: 200 OK;                    O Status Code mostra a "resposta"
